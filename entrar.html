@@ -37,9 +37,21 @@
         <div class="entrar-registrar-box">
             <h1>Já sou registrado</h1>
             <form>
-                <input type="text">
-                <input type="password">
-                <input type="checkbox">
+                <div class="input-box">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Usuário</label>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                    <label for="senha" class="labelInput">Senha</label>
+                </div>
+
+                <label for="checkBox" class="checkBox">
+                    <input id="checkBox" type="checkbox">
+                    Permanecer Conectado
+                </label>
+
                 <button type="submit">
                     Entrar
                 </button>
