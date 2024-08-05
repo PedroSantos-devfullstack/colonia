@@ -62,14 +62,14 @@ nav a {
 }
 
 .entrar-registrar-box {
-    width: auto;
+    width: 400px;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 7px;
-    background-color: rgba(115, 23, 168, 0.7);
+    background-color: rgba(115, 23, 168, 0.5);
     border: 1px solid  #fff;
     color: #fff;
 }
